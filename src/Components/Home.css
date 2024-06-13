@@ -1,0 +1,51 @@
+/* Home.css */
+.home_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  .home_header {
+    font-size: 3em;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+  }
+  
+  .button_section {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  button {
+    padding: 1rem 2rem;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .addemployee {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .projectsection {
+    background-color: #007bff;
+    color: #fff;
+  }
+  

@@ -1,0 +1,139 @@
+.project-details {
+    padding: 20px;
+  }
+  
+  .project-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .project-table th, .project-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .project-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .status-badge {
+    padding: 5px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+  }
+  
+  .status-completed {
+    background-color: green;
+  }
+  
+  .status-ongoing {
+    background-color: orange;
+  }
+  
+  .status-unknown {
+    background-color: red;
+  }
+  
+  .action-icon {
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .add-project-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .add-project-button:hover {
+    background-color: #45a049;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-card h3 {
+    margin-top: 0;
+  }
+  
+  .modal-card label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .modal-card input[type="text"],
+  .modal-card input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .modal-card button {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .modal-card button:hover {
+    background-color: #45a049;
+  }
+  
+  .modal-card button:last-child {
+    background-color: #f44336;
+  }
+  
+  .modal-card button:last-child:hover {
+    background-color: #e53935;
+  }
+  
+  .status-badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .status-unknown {
+    background-color: red;
+  }
+  
+  .status-completed {
+    background-color: green;
+  }
+  
+  .status-ongoing {
+    background-color: yellow;
+    color: black;
+  }

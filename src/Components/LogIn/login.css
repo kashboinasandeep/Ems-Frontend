@@ -1,0 +1,98 @@
+/* login.css */
+
+.login-background {
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Updated background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.main-container {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus {
+  border-color: #feb47b; 
+}
+
+.input-error {
+  border-color: #e74c3c;
+}
+
+.error-text {
+  color: #e74c3c;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.login-button {
+  background: #49e663; 
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.login-button:hover {
+  background: #ff7e5f; /* Updated hover color to match the new background */
+}
+
+.actions-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.action-button {
+  background: none;
+  border: none;
+  color: #feb47b; 
+  cursor: pointer;
+  padding: 10px;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.action-button:hover {
+  color: #ff7e5f; /* Updated hover color to match the new background */
+}
